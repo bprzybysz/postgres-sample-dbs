@@ -1,0 +1,14 @@
+# PROCESSED 2025-07-18: postgres_air
+# Entity Type: database
+# Strategy: configuration
+# Ticket: DB-DECOMM-001
+# Contact: ops-team@company.com
+# Original content preserved below (commented)
+
+version: '3.8'
+services:
+  db:
+    image: postgres:13
+    environment:
+#       POSTGRES_DB: postgres_air
+#       POSTGRES_USER: postgres_air_user
