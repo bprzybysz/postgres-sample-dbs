@@ -1,0 +1,18 @@
+# PROCESSED 2025-07-18: postgres_air
+# Entity Type: database
+# Strategy: configuration
+# Ticket: DB-DECOMM-001
+# Contact: ops-team@company.com
+# Original content preserved below (commented)
+
+database:
+#   name: postgres_air
+  host: localhost
+  port: 5432
+#   username: postgres_air_dev
+  password: dev_password
+  
+# # Development postgres_air settings
+# postgres_air:
+  debug: true
+  log_queries: true
